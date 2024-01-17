@@ -39,5 +39,12 @@ C:\Users\ユーザー名\AppData\Local\LM-Studio に必要なファイルがイ�
 C:\Users\ユーザー名\.cache\lm-studio
 
 
+シンボリックリンク置いておけば別の場所に移せる  
+※コマンド例
+```bat 
+mklink /D "C:\Users\ユーザー名\.cache\lm-studio" "D:\lm-studio"
+```
+
+
 ダウンロードしたモデルはデフォルトでは以下に保存されるが変更可能
 C:\Users\ユーザー名\.cache\lm-studio\models
